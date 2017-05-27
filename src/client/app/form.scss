@@ -1,0 +1,79 @@
+$body-bg: transparent;
+
+body {
+  font: 100% Helvetica, sans-serif;
+  background-image: url("/static/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.panel-info {
+  margin-top: 80px;
+  min-width: 200px;
+  opacity: 0.92;
+  text-align: center;
+}
+
+.reg {
+	position: absolute;
+	display: block;
+	right: 0;
+	margin-left: 5px;
+}
+
+.card {
+	position: relative;
+}
+
+.nopadding {
+   padding: 0 !important;
+}
+
+.with-header {
+  margin-top: 100px !important;
+  border: none !important;
+}
+
+.delete-btn {
+  float: right;
+  position: relative;
+  top: -9px;
+  margin: 0px;
+}
+
+// .addTaskItem > span {
+//   display: inline-flex;
+//   justify-content:center;
+// }
+
+.preloader-wrapper {
+  position: absolute !important;
+  top: 100px !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  margin: auto !important;
+}
+
+.addTask {
+  float: right !important;
+  position: relative !important;
+}
+
+.taskinput {
+  float: left !important;
+  width: 70% !important;
+  position: relative !important;
+  bottom: 20px !important;
+  margin-top: 5px !important;
+}
+
+.taskinput > input {
+  margin: 0 !important;
+}
+
+.collection-header {
+  min-height: 120px;
+}
